@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Streakly | Habit Tracking App Demo</title>
+    <meta
+      name="description"
+      content="A simple modern one-page landing page demo for Streakly, a fictional productivity and habit tracking app."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <!-- Replace this logo text with the client's real product name or logo. -->
+        <a class="logo" href="#top" aria-label="Streakly home">
+          <span class="logo-mark">S</span>
+          Streakly
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" id="nav-menu">
+          <a href="#features">Features</a>
+          <a href="#benefits">Benefits</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#get-started">Get Started</a>
+        </div>
+
+        <a class="button button-small nav-cta" href="#get-started">Start free</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Productivity made simple</p>
+            <!-- Replace this hero headline with the client's real core value proposition. -->
+            <h1>Build better habits without making your day more complicated.</h1>
+            <p class="hero-text">
+              Streakly helps busy people turn small daily actions into steady progress with
+              friendly tracking, clear goals, and lightweight motivation.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#get-started">Get started</a>
+              <a class="text-link" href="#how-it-works">See how it works</a>
+            </div>
+          </div>
+
+          <!-- Replace this placeholder UI with real app screenshots or exported mockups. -->
+          <div class="app-mockup" aria-label="Placeholder app dashboard mockup">
+            <div class="mockup-topbar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="mockup-content">
+              <div class="mockup-header">
+                <div>
+                  <p>Today</p>
+                  <strong>4 habits active</strong>
+                </div>
+                <div class="progress-ring">82%</div>
+              </div>
+              <div class="habit-list">
+                <div class="habit-row complete">
+                  <span class="check"></span>
+                  <div>
+                    <strong>Morning focus</strong>
+                    <small>12 day streak</small>
+                  </div>
+                </div>
+                <div class="habit-row complete">
+                  <span class="check"></span>
+                  <div>
+                    <strong>Read 10 pages</strong>
+                    <small>8 day streak</small>
+                  </div>
+                </div>
+                <div class="habit-row">
+                  <span class="check"></span>
+                  <div>
+                    <strong>Evening review</strong>
+                    <small>Due tonight</small>
+                  </div>
+                </div>
+              </div>
+              <div class="mockup-chart">
+                <span style="height: 46%"></span>
+                <span style="height: 70%"></span>
+                <span style="height: 58%"></span>
+                <span style="height: 84%"></span>
+                <span style="height: 64%"></span>
+                <span style="height: 92%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="features">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Features</p>
+            <h2>Everything needed for a focused MVP launch.</h2>
+            <p>Simple blocks below can be swapped for the client's exact app features.</p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="card feature-card">
+              <span class="icon-placeholder">01</span>
+              <h3>Daily habit tracking</h3>
+              <p>Mark actions complete, keep a streak alive, and see the next best step at a glance.</p>
+            </article>
+            <article class="card feature-card">
+              <span class="icon-placeholder">02</span>
+              <h3>Goal templates</h3>
+              <p>Start from simple routines for focus, wellness, learning, planning, or personal growth.</p>
+            </article>
+            <article class="card feature-card">
+              <span class="icon-placeholder">03</span>
+              <h3>Progress snapshots</h3>
+              <p>Review weekly momentum with lightweight stats that stay useful instead of overwhelming.</p>
+            </article>
+            <article class="card feature-card">
+              <span class="icon-placeholder">04</span>
+              <h3>Gentle reminders</h3>
+              <p>Get timely nudges that support consistency without turning the app into another chore.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="benefits">
+        <div class="container benefits-grid">
+          <div class="benefits-copy">
+            <p class="eyebrow">Benefits</p>
+            <h2>Designed to make consistency feel manageable.</h2>
+            <p>
+              Replace this section with client-specific outcomes, audience pain points, or social proof
+              once the real product positioning is ready.
+            </p>
+
+            <ul class="benefit-list">
+              <li>
+                <span></span>
+                Helps users focus on small actions they can actually repeat.
+              </li>
+              <li>
+                <span></span>
+                Turns progress into a clear visual feedback loop.
+              </li>
+              <li>
+                <span></span>
+                Keeps the experience friendly, quick, and easy to return to.
+              </li>
+            </ul>
+          </div>
+
+          <aside class="card stat-card" aria-label="Placeholder testimonial">
+            <!-- Replace this testimonial or metric with real user feedback when available. -->
+            <p class="stat-number">3.4x</p>
+            <p class="stat-label">more likely to complete weekly goals when progress is visible.</p>
+            <blockquote>
+              "Streakly makes my routine feel clear without adding extra planning work."
+            </blockquote>
+            <cite>Placeholder beta user</cite>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="how-it-works">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">How it works</p>
+            <h2>Three simple steps from intention to momentum.</h2>
+          </div>
+
+          <div class="steps-grid">
+            <article class="step">
+              <span>1</span>
+              <h3>Set your goals</h3>
+              <p>Choose a habit, define the repeat schedule, and keep the target realistic.</p>
+            </article>
+            <article class="step">
+              <span>2</span>
+              <h3>Track daily actions</h3>
+              <p>Check off completed actions in seconds from a simple daily dashboard.</p>
+            </article>
+            <article class="step">
+              <span>3</span>
+              <h3>Stay motivated</h3>
+              <p>Use streaks, weekly wins, and gentle reminders to keep moving forward.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pricing-section" id="pricing">
+        <div class="container pricing-panel">
+          <div>
+            <p class="eyebrow">Pricing</p>
+            <h2>Simple MVP-ready pricing block.</h2>
+            <p>Use this area for a free plan, waitlist, beta signup, or early-access offer.</p>
+          </div>
+          <div class="price-card">
+            <p>Starter</p>
+            <strong>$0</strong>
+            <span>Placeholder plan</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final-cta" id="get-started">
+        <div class="container cta-panel">
+          <!-- Replace this CTA copy with the client's primary conversion message. -->
+          <h2>Ready to turn small wins into lasting routines?</h2>
+          <p>Launch a clean landing page, validate interest, and start collecting early users quickly.</p>
+          <a class="button button-light" href="mailto:hello@example.com">Start your streak</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Streakly. Demo landing page.</p>
+        <div>
+          <a href="#features">Features</a>
+          <a href="#benefits">Benefits</a>
+          <a href="#get-started">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
